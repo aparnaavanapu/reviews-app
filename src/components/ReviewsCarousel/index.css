@@ -1,0 +1,31 @@
+.bg-container{
+    background-image:url("https://assets.ccbp.in/frontend/react-js/reviews-bg.png");
+    background-size:cover;
+    min-height:100vh;
+    padding:20px;
+    text-align:center;
+    
+}
+
+.review-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    
+    padding-top:30px;
+    
+  
+}
+.heading{
+    color: #ffffff;
+    font-family:"Roboto";
+    font-size:40px;
+    padding-top:30px;
+
+}
+.arrow{
+    width:26px;
+    cursor: pointer;
+    outline: none;
+}

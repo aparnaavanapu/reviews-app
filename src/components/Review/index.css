@@ -1,0 +1,29 @@
+.name{
+    color:#ffffff;
+    font-family:"Roboto";
+    font-size:22px;
+    font-weight:bold;
+}
+.company{
+    color:#171f46;
+    font-family:"Roboto";
+    font-size:17px;
+    font-weight:500;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width:50%;
+    height:30%;
+    
+}
+.image{
+    width:20%;
+}
+@media screen and (max-width:576px){
+    .container{
+        width:90%;
+    }
+}
